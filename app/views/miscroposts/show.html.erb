@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Context:</strong>
+  <%= @miscropost.context %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @miscropost.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_miscropost_path(@miscropost) %> |
+<%= link_to 'Back', miscroposts_path %>
