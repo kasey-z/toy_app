@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple scaffolded app on Rails which is the solution for [the Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet).
 
-Things you may want to cover:
+It has been deployed to [Heroku](https://tranquil-brook-79304.herokuapp.com/).
 
-* Ruby version
+The purpose of making the app is to learn RoR by building and testing this twitter like microblogging application. The knowledge points as below
 
-* System dependencies
+* Scaffolding automatically creates code to model data and interact with it through the web.
 
-* Configuration
+* Scaffolding is good for getting started quickly but is bad for understanding.
 
-* Database creation
+* Rails uses the Model-View-Controller (MVC) pattern for structuring web applications.
 
-* Database initialization
+* As interpreted by Rails, the REST architecture includes a standard set of URLs and controller actions for interacting with data models.
 
-* How to run the test suite
+* Rails supports data validations to place constraints on the values of data model attributes.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Rails comes with built-in functions for defining associations between different data models.
 
-* Deployment instructions
-
-* ...
+* We can interact with Rails applications at the command line using the Rails console.
